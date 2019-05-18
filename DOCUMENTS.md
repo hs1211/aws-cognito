@@ -11,6 +11,7 @@ Amazon Cognito는 아래와 같이 크게 두가지 기능을 제공한다. 각 
 - Last Steps to FUll Fledged
 
 ### Intial Setup
+초기 
 
 1. User pool을 만들어라
 : 만약, Uber같은 시스템이라는 `driver`와 `rider`에 해당하는 두 개의 user pool을 만들어라.
@@ -24,7 +25,10 @@ Amazon Cognito는 아래와 같이 크게 두가지 기능을 제공한다. 각 
 - email or SMS(초기 설정이 1로 되어 있기 때문에 케이스를 오픈해서 사용가능하면 - 요금이 발생함) 연결가능
 
 
-
+5. app 이름과 refresh token 주기를 지정하라.
+- app id는 cognito identifer이다. 
+- 여러 app에서 동일한 cognito user pool에 접근할 수 있다.
+- `Generate client secret` 의미??
  
 
 
